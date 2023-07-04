@@ -1,0 +1,45 @@
+main {
+    display: flex;
+    text-align: center;
+}
+
+section {
+    margin: 5px;
+}
+
+.buttons-area {
+    background-color:rgb(2, 215, 242);
+    width: 20%;
+    white-space: pre-line;
+    text-align: left;
+}
+
+.buttons {
+    margin: 5px;
+}
+
+.form-area {
+    background-color:rgb(242, 233, 0);
+    width: 40%;
+    white-space: pre-line;
+}
+
+.form-results {
+    background-color:rgb(2, 215, 242);
+    width: 60%;
+}
+
+.patient-card {
+    background-color: beige;
+    border-radius: 5px;
+    margin: 5px;
+    text-align: left;
+}
+
+.patient-info {
+    margin: 5px;
+}
+
+.hidden {
+    visibility: hidden;
+}

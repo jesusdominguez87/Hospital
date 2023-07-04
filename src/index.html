@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestión de Pacientes</title>
+</head>
+<body>
+    <header>
+        <h1>Gestión de Pacientes</h1>
+    </header>
+    <main>
+        <section id="buttons" class="buttons-area">
+            <input type="button" id="insertButton" class="buttons" value="Insertar">
+            <input type="button" id="updateButton" class="buttons" value="Actualizar">
+            <input type="button" id="deleteButton" class="buttons" value="Borrar">
+            <input type="button" id="showAllPatientsButton" class="buttons" value="Mostrar Todos">
+            <input type="button" id="showPensionersButton" class="buttons" value="Mostrar Pensionistas">
+            <input type="button" id="showForeignersButton" class="buttons" value="Mostrar Extranjeros">
+            <input type="button" id="searchPatientButton" class="buttons" value="Buscar por DNI">
+        </section>
+
+        <section class="form-area">
+            <section id="selectPatientTypeArea" class="hidden">
+                <label for="patientType">Tipo de paciente:</label>
+
+                <select id="patientTypeSelect" name="patientType">
+                    <option value="">Seleccione un tipo</option>
+                    <option value="default">General</option>
+                    <option value="foreign">Extranjero</option>
+                    <option value="pensioner">Pensionista</option>
+                </select>
+
+                <section id="formArea"></section>
+            </section>
+        </section>
+
+        <section id="formResults" class="form-results">
+        </section>
+    </main>
+    <!-- Scripts -->
+    <link rel="stylesheet" href="./assets/styles/main.css">
+    <script type="module" src="./app.ts"></script>
+</body>
+</html>

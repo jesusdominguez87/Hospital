@@ -1,0 +1,21 @@
+{
+  "name": "hospital",
+  "version": "0.0.1",
+  "main": "app.ts",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "scripts": {
+      "start:dev": "vite ./src",
+      "start:api": "json-server --watch src/assets/mock/db.json",
+      "build": "vite build",
+      "serve": "vite preview"
+    },
+    "devDependencies": {
+      "@types/node": "^18.11.18",
+      "autoprefixer": "^10.4.13",
+      "json-server": "^0.17.1",
+      "typescript": "^4.9.4",
+      "vite": "^4.0.4"
+    }
+}
