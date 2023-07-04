@@ -33,7 +33,7 @@ export class HospitalController {
     }
 
     private loadPatients = () => {
-        this.hospitalService.loadData().then(() => { this.render(this.hospitalService.pensioners); });
+        this.hospitalService.loadData().then(() => { this.render(this.hospitalService.allPatients); });
     }
 
     private render = (patients) => {
